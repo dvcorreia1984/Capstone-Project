@@ -73,6 +73,8 @@ h3 {
 }
 
 h4 {
+  width: 10vw;
+  font-weight: 100;
   padding: 20px 20px 20px 0;
   color: #ec5242;
 }
@@ -82,6 +84,19 @@ h5 {
   color: #868686;
   width: 90vw;
   padding: 0 15px 15px 15px;
+}
+
+img {
+  padding-right: 4vw;
+  width: 15vw;
+}
+
+button {
+  color: white;
+  background-color: #ec5242;
+  padding: 5vw;
+  margin: 10vw;
+  border: 2px solid #ec5242;
 }
 
 .container {
@@ -108,7 +123,10 @@ h5 {
 }
 
 .container.cont2 {
-  background-color:#42454b ;
+  justify-content: flex-start;
+  height: 662px;
+  background-image: url(./Assets/Background-repeat.png);
+  background-repeat: repeat;
 }
 
 .container.cont3 {
@@ -128,17 +146,35 @@ i.fa.fa-bars {
 }
 
 .program {
-  border: 1px solid white;
-  margin: 10px;
+  height: 12vh;
+  margin: 0.5vw 3vw;
   display: flex;
   width: 94vw;
   flex-direction: row;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(211, 211, 211, 0.3);
 }
 
 i.fas.fa-calendar-alt {
   padding: 20px;
+}
+
+p#programtext {
+  margin-left: 20px;
+  color: #fff;
+}
+
+h2#h2home2 {
+  padding: 20px 20px 0 20px;
+  color: white;
+  align-items: center;
+  font-weight: 100;
+}
+
+.line {
+  margin: 6px 46% 7vh;
+  align-items: center;
+  border: 1px solid #ec5242;
 }
 
 @media (max-width: 768px) {
