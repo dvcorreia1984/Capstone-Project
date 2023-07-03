@@ -23,6 +23,17 @@ section {
   flex-direction: column;
 }
 
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+i {
+  color: #ec5242;
+  font-size: xx-large;
+}
+
 h1,
 h2,
 h3,
@@ -41,21 +52,36 @@ h3 {
 
 h1 {
   padding: 5px 15px;
-  width: 80vw;
-  font-size: 176%;
+  width: 83vw;
+  font-size: 7vw;
   margin-bottom: 5px;
+  font-weight: 800;
 }
 
 h2 {
+  font-size: 6vw;
   width: 86vw;
   padding: 15px 15px 15px 15px;
   color: #595959;
 }
 
 h3 {
+  font-size: 6vw;
   margin-top: 15vh;
   font-weight: 300;
   padding: 5px 15px;
+}
+
+h4 {
+  padding: 20px 20px 20px 0;
+  color: #ec5242;
+}
+
+h5 {
+  font-size: 3vw;
+  color: #868686;
+  width: 90vw;
+  padding: 0 15px 15px 15px;
 }
 
 .container {
@@ -64,7 +90,7 @@ h3 {
 }
 
 .container.topbar {
-  height: 63px;
+  height: 10vh;
   width: 100vw;
   display: flex;
 }
@@ -77,22 +103,16 @@ h3 {
 .container.cont1 {
   justify-content: flex-start;
   background-image: url(./Assets/Ai-background.png);
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .container.cont2 {
-  background-color: turquoise;
+  background-color:#42454b ;
 }
 
 .container.cont3 {
   background-color: coral;
-}
-
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 i.fa.fa-bars {
@@ -100,10 +120,25 @@ i.fa.fa-bars {
 }
 
 .textbox {
+  font-size: 2.5vw;
   padding: 10px;
   margin: 2vw 2vw 4vw 2vw;
   width: 83vw;
   border: 4px solid white;
+}
+
+.program {
+  border: 1px solid white;
+  margin: 10px;
+  display: flex;
+  width: 94vw;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+i.fas.fa-calendar-alt {
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
