@@ -124,16 +124,19 @@ button {
 
 .container.cont2 {
   justify-content: flex-start;
-  height: 662px;
+  height: 94vh;
   background-image: url(./Assets/Background-repeat.png);
   background-repeat: repeat;
 }
 
 .container.cont3 {
-  background-color: coral;
+  justify-content: flex-start;
+  background-color: white;
+  height: 445px;
 }
 
 i.fa.fa-bars {
+  color: #272a31;
   font-size: 8vw;
 }
 
@@ -155,10 +158,6 @@ i.fa.fa-bars {
   background-color: rgba(211, 211, 211, 0.3);
 }
 
-i.fas.fa-calendar-alt {
-  padding: 20px;
-}
-
 p#programtext {
   margin-left: 20px;
   color: #fff;
@@ -175,6 +174,11 @@ h2#h2home2 {
   margin: 6px 46% 7vh;
   align-items: center;
   border: 1px solid #ec5242;
+}
+
+h2#h2home3 {
+  align-items: center;
+  padding-bottom: 3px;
 }
 
 @media (max-width: 768px) {
