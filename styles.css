@@ -65,17 +65,23 @@ h1 {
   background-size: cover;
 }
 
+h1#h1about {
+  margin: 5vw;
+  color: #ec5242;
+  text-align: center;
+  z-index: 3;
+}
+
 h2 {
   font-weight: 600;
   font-size: 6vw;
   width: 86vw;
-  padding: 15px 15px 15px 15px;
+  padding: 23px 15px 15px 15px;
   color: #595959;
 }
 
 h3 {
   font-size: 6vw;
-  margin-top: 15vh;
   font-weight: 300;
   padding: 5px 15px;
 }
@@ -125,6 +131,10 @@ button {
   padding: 5vw;
   margin: 10vw;
   border: 2px solid #ec5242;
+}
+
+section#about1 {
+  background-color: #f7f7f8;
 }
 
 .container {
@@ -183,6 +193,11 @@ button {
   height: 445px;
 }
 
+.container.cont4 {
+  justify-content: flex-start;
+  margin-top: 12vh;
+}
+
 i.fa.fa-bars {
   color: #272a31;
   font-size: 8vw;
@@ -196,6 +211,17 @@ i.fa.fa-bars {
   margin: 2vw 2vw 4vw 2vw;
   width: 88vw;
   border: 2px solid white;
+}
+
+div#textboxabout {
+  font-weight: 400;
+  font-size: 1rem;
+  border: 1px solid #d3d3d3;
+  width: 81vw;
+  margin: 10vw 6vw 10vw;
+  line-height: 20px;
+  background-color: white;
+  text-align: center;
 }
 
 .program {
@@ -223,7 +249,7 @@ h2#h2home2 {
 }
 
 .line {
-  margin: 6px 46% 4vh;
+  margin: 6px 46% 7vh;
   align-items: center;
   border: 1px solid #ec5242;
 }
@@ -256,7 +282,7 @@ h2#h2home3 {
 }
 
 .grid-item.grid-content {
-  margin-bottom: 5vh;
+  margin-bottom: 6vh;
   padding: 0;
   width: 72vw;
   border: none;
@@ -288,6 +314,63 @@ button.button.more {
   border: 1px solid #d3d3d3;
   color: #272a31;
   background-color: white;
+}
+#pattern {
+  position: absolute;
+  top: 29vh;
+  right: 70vw;
+  width: 70px;
+  height: 70px;
+  background-image: url(./Assets/Paterns/rooi\ swart\ patroon.png);
+  background-size: 18%;
+  background-repeat: repeat;
+  border-radius: 50%;
+  background-position: 50% 50%;
+  z-index: -1;
+}
+
+h3#h3about {
+  align-items: center;
+}
+
+p#emailmsg {
+  margin: 0 20vw 1vh;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+p#email {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+  font-decoration: underline;
+}
+
+h2#h2about{
+  text-align: center;
+  font-size: 5vw;
+}
+
+p#aboutlogo {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+div#about2line {
+  margin-bottom: 3vh;
+}
+
+img#logo {
+  border: 1px solid #d3d3d3;
+  margin: 4vh 18vw;
+  align-items: center;
+  align-content: center;
+  width: 62vw;
+}
+
+.container.cont5 {
+  height: 46vh;
+  justify-content: flex-start;
 }
 
 @media (max-width: 768px) {
