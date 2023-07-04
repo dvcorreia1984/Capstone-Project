@@ -403,6 +403,19 @@ div#about3line {
   background-image: url(./Assets/Background/alexandre-pellaes-6vAjp0pscX0-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #ec5242;
+  background-blend-mode: luminosity;
+}
+
+h2#redbghead {
+  color: white;
+  text-align: center;
+}
+
+p#redbgtext {
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 768px) {
