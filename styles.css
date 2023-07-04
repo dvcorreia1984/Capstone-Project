@@ -373,6 +373,38 @@ img#logo {
   justify-content: flex-start;
 }
 
+.container.cont6 {
+  border-top: 1px solid #d3d3d3;
+  justify-content: flex-start;
+}
+
+h2#h3about {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+p#about3text {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+div#about3line {
+  margin-bottom: 3vh;
+}
+
+#h3about {
+  color:white;
+}
+
+.redback {
+  margin: 7vw;
+  height: 183px;
+  width: 80vw;
+  background-image: url(./Assets/Background/alexandre-pellaes-6vAjp0pscX0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 768px) {
   .logo {
     display: none;
