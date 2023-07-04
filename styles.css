@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Lato, sans-serif;
+  font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,6 +66,7 @@ h1 {
 }
 
 h2 {
+  font-weight: 600;
   font-size: 6vw;
   width: 86vw;
   padding: 15px 15px 15px 15px;
@@ -94,9 +95,28 @@ h5 {
   padding: 0 15px 15px 15px;
 }
 
+h6 {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+p#h6subtitle {
+  font-size: 0.7rem;
+  font-style: italic;
+  color: #ec5242;
+}
+
 img {
   padding: 10px;
   width: 10vw;
+}
+
+img#speaker {
+  padding: 0;
+  left: 13px;
+  top: 12px;
+  width: 20vw;
+  position: absolute;
 }
 
 button {
@@ -135,6 +155,17 @@ button {
   justify-content: flex-start;
   height: 94vh;
   z-index: 2;
+}
+
+.chess {
+  height: 7vh;
+  top: 0;
+  left: 0;
+  background-image: url(./Assets/Speakers/chess.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  filter: blur(0.5px);
+  -webkit-filter: blur(0.5px);
 }
 
 .bg-image {
@@ -192,7 +223,7 @@ h2#h2home2 {
 }
 
 .line {
-  margin: 6px 46% 7vh;
+  margin: 6px 46% 4vh;
   align-items: center;
   border: 1px solid #ec5242;
 }
@@ -200,6 +231,63 @@ h2#h2home2 {
 h2#h2home3 {
   align-items: center;
   padding-bottom: 3px;
+}
+
+.grid-container {
+  padding: 1px 0 10px 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: start;
+}
+
+.grid-item {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.grid-item.grid-image {
+  padding: 0;
+  height: 12vh;
+  width: 20vw;
+  display: flex;
+  justify-content: flex-start;
+  border: none;
+  position: relative;
+}
+
+.grid-item.grid-content {
+  margin-bottom: 5vh;
+  padding: 0;
+  width: 72vw;
+  border: none;
+}
+
+line.line.grey-line {
+  border: 1px solid #d3d3d3;
+  display: flex;
+  align-items: flex-start;
+  margin: 7px 91% 7px 0;
+}
+
+p#h6text {
+  font-size: 0.5rem;
+  font-weight: 500;
+}
+
+i.fas.fa-chevron-down {
+  padding-left: 5px;
+  font-size: 15px;
+  color: #ec5242;
+}
+
+button.button.more {
+  font-size: 0.8rem;
+  border-radius: 3px;
+  padding: 11px;
+  margin: 3vw;
+  border: 1px solid #d3d3d3;
+  color: #272a31;
+  background-color: white;
 }
 
 @media (max-width: 768px) {
