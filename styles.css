@@ -86,6 +86,10 @@ h3 {
   padding: 5px 15px;
 }
 
+h3#spacingtop {
+  padding-top: 11vh;
+}
+
 h4 {
   font-size: 0.75rem;
   width: 10vw;
@@ -143,9 +147,9 @@ section#about1 {
 }
 
 .container.topbar {
-  height: 10vh;
   width: 100vw;
   display: flex;
+  justify-content: flex-start;
 }
 
 .menu {
@@ -154,7 +158,6 @@ section#about1 {
 }
 
 .container.cont1 {
-  justify-content: flex-start;
   background-image: url(./Assets/Ai-background.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -230,6 +233,7 @@ div#textboxabout {
   line-height: 20px;
   background-color: white;
   text-align: center;
+  z-index: 2;
 }
 
 .program {
@@ -326,16 +330,15 @@ button.button.more {
 
 #pattern {
   position: absolute;
-  top: 29vh;
-  right: 70vw;
+  top: 36vh;
+  right: 69vw;
   width: 70px;
   height: 70px;
   background-image: url(./Assets/Paterns/rooi\ swart\ patroon.png);
   background-size: 18%;
   background-repeat: repeat;
   border-radius: 50%;
-  background-position: 50% 50%;
-  z-index: -1;
+  z-index: 1;
 }
 
 h3#h3about {
@@ -352,7 +355,7 @@ p#email {
   text-align: center;
   font-size: 0.7rem;
   font-weight: bold;
-  font-decoration: underline;
+  text-decoration: underline;
 }
 
 h2#h2about{
@@ -534,12 +537,77 @@ p#rights {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+ul#desksocial {
+  color: white;
+  background-color: #3e3e3e;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social {
+  display: none;
+}
+
+li.socialmenu {
+  display: flex;
+  padding: 0 10px;
+  height: 4vh;
+  align-items: center;
+}
+
+ul#menu-items {
+  margin: 0;
+  height: 50vh;
+  width: 100vw;
+  background-color: #ec5242;
+}
+
+@media screen and (min-width: 768px) {
   .logo {
     display: none;
   }
 
-  ul#menu-items {
+  i.fa.fa-bars {
     display: none;
   }
+
+  .social {
+    display: flex !important;
+    background-color: #272a31;
+    justify-content: flex-end;
+  }
+
+  .container.topbar {
+    height: 15vh;
+  }
+
+  .fab {
+    font-size: 2vw;
+    color: white;
+  }
+
+  /* .hidden {
+    display: none !important;
+  } */
+
+  .menu {
+    padding: 0;
+  }
+
+  ul#menu-items {
+    height: 8vh;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    background-color: white;
+    align-items: center;
+  }
+
+  .logo {
+    background-color: pink;
+  }
+
+
+
 }
