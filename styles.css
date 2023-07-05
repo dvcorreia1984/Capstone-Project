@@ -51,7 +51,7 @@ h3 {
 }
 
 h1 {
-  line-height: 26px;
+  line-height: 4vh;
   color: transparent;
   padding: 5px 15px;
   width: 83vw;
@@ -215,7 +215,7 @@ i.fa.fa-bars {
 }
 
 .textbox {
-  line-height: 17px;
+  line-height: 2vw;
   background-color: #f7f7f7;
   font-size: 2.5vw;
   padding: 10px;
@@ -587,9 +587,9 @@ ul#menu-items {
     color: white;
   }
 
-  /* .hidden {
+  .hidden {
     display: none !important;
-  } */
+  }
 
   .menu {
     padding: 0;
@@ -608,6 +608,74 @@ ul#menu-items {
     background-color: pink;
   }
 
+  h1 {
+    line-height: 7vh;
+  }
+
+  .textbox {
+    width: 50vw;
+  }
+
+  .container.cont1 {
+    height: 115vh;
+  }
+
+  .program {
+    flex-direction: column;
+  }
+
+  img {
+    width: 5vw;
+  }
+
+  .program {
+    height: 24vh;
+    margin: 1vw 2px;
+    width: 16vw;
+    flex-direction: column;
+  }
+
+  h4 {
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  p#programtext {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .program-container {
+    width: 96vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bg-image {
+    height: 60vh;
+    background-size: 2%;
+  }
+
+  h2#h2home2 {
+    font-size: 2rem;
+    width: auto;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+
+  p#seeprogram {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+  }
+
+  h2#h2home3 {
+    width: auto;
+    font-size: 2rem;
+  }
 
 
 }
