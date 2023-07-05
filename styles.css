@@ -198,6 +198,14 @@ section#about1 {
   margin-top: 12vh;
 }
 
+.container.cont6 {
+  border-top: 1px solid #d3d3d3;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
 i.fa.fa-bars {
   color: #272a31;
   font-size: 8vw;
@@ -315,6 +323,7 @@ button.button.more {
   color: #272a31;
   background-color: white;
 }
+
 #pattern {
   position: absolute;
   top: 29vh;
@@ -379,6 +388,7 @@ img#logo {
 }
 
 h2#h3about {
+  color: #272a31;
   font-size: 1.2rem;
   text-align: center;
 }
@@ -392,22 +402,40 @@ div#about3line {
   margin-bottom: 3vh;
 }
 
-#h3about {
-  color:white;
-}
-
 .redback {
-  margin: 7vw;
+  display: flex;
+  margin: 2vw 2vw 1vw;
   height: 183px;
-  width: 80vw;
-  background-image: url(./Assets/Background/alexandre-pellaes-6vAjp0pscX0-unsplash.jpg);
+  width: 75vw;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #ec5242;
-  background-blend-mode: luminosity;
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(236, 82, 66, 0.6),
+      rgba(236, 82, 66, 0.8)
+    ),
+    url(./Assets/Background/alexandre-pellaes-6vAjp0pscX0-unsplash.jpg);
+}
+
+.redback2 {
+  display: flex;
+  margin: 2vw 2vw 1vw;
+  height: 183px;
+  width: 75vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(236, 82, 66, 0.6),
+      rgba(236, 82, 66, 0.8)
+    ),
+    url(./Assets/Background/evangeline-shaw-nwLTVwb7DbU-unsplash.jpg);
 }
 
 h2#redbghead {
+  width: auto;
   color: white;
   text-align: center;
 }
@@ -416,6 +444,94 @@ p#redbgtext {
   color: white;
   text-align: center;
   font-size: 0.8rem;
+}
+
+.redoverlay {
+  background-color: #ec534270;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+h6#redbgtext {
+  text-align: center;
+  color: white;
+  width: auto;
+}
+
+.container.cont7 {
+  background-color: #414246;
+  height: 36vh;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h2#h2about4 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.linecen {
+  margin: 2px 48%;
+  width: 10%;
+  height: 2px;
+  background-color: #ec5242;
+  left: 50%;
+}
+
+svg#mozilla {
+  background-color: #d3d3d3;
+}
+
+ul.brands {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+img.brandicon {
+  width: 20vw;
+}
+
+img#daumkakao {
+  width: 35vw;
+}
+
+img#Mozilla {
+  padding-bottom: 5vh;
+  width: 22vw;
+}
+
+img#Google {
+  width: 25vw;
+}
+
+img#Naver {
+  width: 27vw;
+}
+
+img#airbnb {
+  width: 27vw;
+}
+
+.cont8 {
+  flex-direction: row;
+}
+
+img#about5img {
+  width: 32vh;
+}
+
+p#rights {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
