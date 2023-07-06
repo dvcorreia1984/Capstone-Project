@@ -27,15 +27,18 @@
 
     <nav id="navbar">
         <div class="menu">
-            <i class="fa fa-bars"></i>
-            <ul id="menu-items" class="hidden">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li>Program</li>
-                <li>Join</li>
-                <li>Sponsor</li>
-                <li>News</li>
-            </ul>
+            <i id="openModal" class="fa fa-bars"></i>
+            <div id="myModal" class="modal">
+                <i id="close" class="fa fa-times hidden"></i>
+                <ul id="menu-items" class="hidden">
+                    <li><a class="alink" href="home.html">Home</a></li>
+                    <li><a class="alink" href="about.html">About</a></li>
+                    <li>Program</li>
+                    <li>Join</li>
+                    <li>Sponsor</li>
+                    <li>News</li>
+                </ul>
+            </div>
         </div>
     </div> 
     </nav>
@@ -139,6 +142,8 @@
 
 </main>
 
+<script src="./script.js"></script>
 
 </body>
+
 </html>
