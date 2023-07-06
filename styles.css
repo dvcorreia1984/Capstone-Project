@@ -59,9 +59,12 @@ h1 {
   margin-bottom: 5px;
   font-weight: 800;
   background-image: url(./Assets/red-background.jpg);
-  -webkit-background-clip: text;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #ec5242;
+  -webkit-background-clip: text;
+  /* stylelint-disable-next-line csstree/validator */
+  background-clip: text;
 }
 
 h1#h1about {
@@ -157,7 +160,7 @@ section#about1 {
 }
 
 .container.cont1 {
-  background-image: url(./Assets/Ai-background.png);
+  background-image: url(Assets/Background/ai-mobile.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -754,6 +757,7 @@ p#seeprogram {
 
   .container.cont1 {
     height: 115vh;
+    background-image: url(./Assets/Background/ai-conference.png) !important;
   }
 
   img {
