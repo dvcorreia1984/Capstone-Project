@@ -187,7 +187,7 @@ section#about1 {
   background-size: 5%;
   filter: blur(1px);
   -webkit-filter: blur(1.5px);
-  height: 94vh;
+  height: 100vh;
 }
 
 .container.cont3 {
@@ -224,7 +224,7 @@ i.fa.fa-bars {
   border: 2px solid white;
 }
 
-div#textboxabout {
+div#textboxaboutmobile {
   font-weight: 400;
   font-size: 1rem;
   border: 1px solid #d3d3d3;
@@ -604,7 +604,9 @@ a.alink {
 }
 
 div#myModal {
+  z-index: 9999;
   align-items: center;
+  background-color: white;
 }
 
 i#close {
@@ -664,6 +666,30 @@ p#japan {
 p#rightsdesk {
   font-size: 0.8rem;
   font-weight: 500;
+}
+
+img#logotobar {
+  display: none;
+}
+
+div#textboxaboutdesk {
+  display: none;
+}
+
+div#redback-cont {
+  flex-direction: column;
+}
+
+p#aboutlogodesk {
+  display: none;
+}
+
+section#about6 {
+  display: none;
+}
+
+p#seeprogram {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -776,10 +802,12 @@ p#rightsdesk {
   }
 
   p#seeprogram {
+    display: flex;
     padding: 50px;
     text-align: center;
     color: white;
     text-decoration: underline;
+    justify-content: center;
   }
 
   h2#h2home3 {
@@ -832,6 +860,7 @@ p#rightsdesk {
   }
 
   img#logotobar {
+    display: flex !important;
     padding-right: 15vw;
     width: 14vw;
     height: 5vw;
@@ -856,4 +885,138 @@ p#rightsdesk {
     width: 83vw;
   }
 
+  .container.cont4 {
+    width: 82vw;
+    justify-content: flex-start;
+    margin: 12vh;
+  }
+
+  h1#h1about {
+    line-height: 8vh;
+    font-size: 3.3rem;
+    width: 81vw;
+    margin: 8vh 0 0;
+  }
+
+  div#textboxaboutdesk {
+    text-align: center;
+    font-size: 0.7rem;
+    width: auto;
+    margin: 6vw;
+    display: flex !important;
+    background-color: white;
+    z-index: 2;
+  }
+
+  #pattern {
+    top: 55vh;
+    right: 83vw;
+    width: 100px;
+    height: 100px;
+  }
+
+  div#about1line {
+    margin: 6px 48% 7vh;
+  }
+
+  div#textboxaboutmobile {
+    display: none;
+  }
+
+  h2#h2about br {
+    display: none;
+  }
+
+  h2#h2about {
+    width: auto;
+    font-size: 2rem;
+  }
+
+  div#about2line {
+    margin: 6px 48% 7vh;
+  }
+
+  p#aboutlogo {
+    display: none;
+  }
+
+  p#aboutlogodesk {
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .container.cont5 {
+    width: auto;
+    height: 60vh;
+  }
+
+  img#logo {
+    margin: 6vh 30vw;
+    width: 39vw;
+  }
+
+  h2#h3about {
+    margin-top: 5vh;
+    font-size: 2rem;
+  }
+
+  .container.cont6 {
+    width: auto;
+    height: 60vh;
+  }
+
+  div#about3line {
+    width: 4vw;
+  }
+
+  p#about3text {
+    margin-bottom: 5vh;
+  }
+
+  p#about3text br {
+    display: none;
+  }
+
+  div#redback-cont {
+    flex-direction: row;
+  }
+
+  .redback,
+  .redback2 {
+    width: 40vw;
+    height: 30vh;
+  }
+
+  h2#redbghead {
+    font-size: 2.5rem;
+  }
+
+  h6#redbgtext {
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+  }
+
+  section#about4,
+  section#about5 {
+    display: none;
+  }
+
+  section#about6 {
+    display: flex !important;
+    background-color: #272a31;
+    color: white;
+  }
+
+  p#rightsdesk {
+    font-weight: 400;
+    margin-bottom: 2vh;
+  }
+
+  .cont10 {
+    padding-left: 10vw;
+  }
+
+  p#japan {
+    width: 50vw;
+  }
 }

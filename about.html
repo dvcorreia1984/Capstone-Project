@@ -13,24 +13,41 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-  <nav id="navbar">
-    <div class="menu">
-        <i id="openModal" class="fa fa-bars"></i>
-        <div id="myModal" class="modal">
-            <i id="close" class="fa fa-times hidden"></i>
-            <ul id="menu-items" class="hidden">
-                <li><a class="alink" href="home.html">Home</a></li>
-                <li><a class="alink" href="about.html">About</a></li>
-                <li>Program</li>
-                <li>Join</li>
-                <li>Sponsor</li>
-                <li>News</li>
+  <header>
+    <div class="container topbar">
+        <div class="social">
+            <ul id="desksocial">
+                <li class="socialmenu"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="socialmenu"><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                <li class="socialmenu">English</li>
+                <li class="socialmenu">My Page</li>
+                <li class="socialmenu">Logout</li>
             </ul>
         </div>
-    </div>
-</div> 
-</nav>
+
+    <nav id="navbar">
+        <div class="menu">
+            <i id="openModal" class="fa fa-bars"></i>
+            <div id="myModal" class="modal">
+                <i id="close" class="fa fa-times hidden"></i>
+                <ul id="menu-items" class="hidden">
+                    <li>
+                        <a href="home.html">
+                        <img id="logotobar" src="./Assets/Artificial Inteligence Global Summit 2023.png">
+                        </a>
+                    </li>
+                    <li id="home"><a class="alink" href="home.html">Home</a></li>
+                    <li><a class="alink" href="about.html">About</a></li>
+                    <li>Program</li>
+                    <li>Join</li>
+                    <li>Sponsor</li>
+                    <li>News</li>
+                    <li id="redbox">AI Campaign</li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+    </nav>
 </header>
 
 <main>
@@ -38,10 +55,13 @@
 <section id="about1">
  <div class="container cont4">
     <div id="pattern"></div>
-    <h3 id="h3about">"AI, friend or foe?"</h3>
-    <h1 id="h1about">ARTIFICIAL INTELLIGENCE GLOBAL SUMMIT 2023</h1>
-    <div id="textboxabout" class="textbox">The AI Global Summit 2023 brings together the community of  
-      experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years. This year we hope to make it the biggest AI conference in Africa!</div>
+
+    <h1 id="h1about">ARTIFICIAL INTELLIGENCE <br> GLOBAL SUMMIT 2023</h1>
+    <div id="about1line" class="line"></div>
+    <div id="textboxaboutmobile" class="textbox">The Global Summit brings together the community of  
+      experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years.
+      This year, we hope to expand our invitation list including organizations and individuals.</div>
+    <div id="textboxaboutdesk" class="textbox">The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons <br> affiliate network in a different country every two years.<br> This year, we hope to expand our invitation list including organizations and individuals who want to work with us on shared <br> projects that advance the cause of the Commons, free culture and open knowledge.<br>So if you're active and engaged in the worlds of open content and knowledge - free software advocates, wikipedians, Open<br> knowledge, galleries, libraries, museums, archives, governments and foundations, lawyers, and activists - we hope you'll <br> consider joining us this year to build a stronger, more vibrant commons together</div>
     <p id="emailmsg">Please contact us per Email for nay further questions about AI Global Summit 2023!</p>
     <p id="email">aict2023@globalsummit.com</p>
  </div>
@@ -52,6 +72,7 @@
     <h2 id="h2about">Artificial Inteligence <br> Global Summit 2023 Logo</h2>
     <div id="about2line" class="line"></div>
     <p id="aboutlogo">The logo of the AI Global Summit was decided <br> through the logo competition earlier this year</p>
+    <p id="aboutlogodesk">The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July.<br> After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize.<br>After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:</p>
     <img id="logo" src="./Assets/Artificial Inteligence Global Summit 2023.png" alt="logo">
     </div>
 </section>
@@ -62,15 +83,17 @@
       <div id="about3line" class="line"></div>
       <p id="about3text">Take a look at two Global AI Summits that took place <br> in Germany and Japan</p>
 
-      <div class="redback">
-          <h2 id="redbghead">2021</h2>
-          <h6 id="redbgtext">AI Global Summit in 2021 in Germany</h6>
-      </div>
+      <div id="redback-cont">
+        <div class="redback">
+            <h2 id="redbghead">2021</h2>
+            <h6 id="redbgtext">AI Global Summit in 2021 in Germany</h6>
+        </div>
 
-      <div class="redback2">
-        <h2 id="redbghead">2022</h2>
-        <h6 id="redbgtext">AI Global Summit in 2022 in Japan</h6>
-    </div>
+        <div class="redback2">
+          <h2 id="redbghead">2022</h2>
+          <h6 id="redbgtext">AI Global Summit in 2022 in Japan</h6>
+        </div>
+      </div>
   </div>
 </section>
 
@@ -95,6 +118,16 @@
     <div><p id="rights">2023 Creative Commons <br> Some Rights Reserved.</p></div>
   </div>
 </section>  
+
+<section id="about6">
+  <div class="cont10">
+    <div><img id="about5img" src="./Assets/Brands/creativecommons.svg" alt="logo"></div>
+    <div class="rightsdesktop">
+      <div><p id="rightsdesk">2023 Creative Commons Some Rights Reserved.</p></div>
+      <div><p id="japan">달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.<br>자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p></div>
+  </div>
+  </div>
+</section> 
 
 </main>
 
