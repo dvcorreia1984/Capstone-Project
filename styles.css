@@ -59,7 +59,6 @@ h1 {
   margin-bottom: 5px;
   font-weight: 800;
   background-image: url(./Assets/red-background.jpg);
-  background-clip: text;
   -webkit-background-clip: text;
   background-repeat: no-repeat;
   background-size: cover;
@@ -358,7 +357,7 @@ p#email {
   text-decoration: underline;
 }
 
-h2#h2about{
+h2#h2about {
   text-align: center;
   font-size: 5vw;
 }
@@ -382,11 +381,6 @@ img#logo {
 
 .container.cont5 {
   height: 46vh;
-  justify-content: flex-start;
-}
-
-.container.cont6 {
-  border-top: 1px solid #d3d3d3;
   justify-content: flex-start;
 }
 
@@ -580,8 +574,8 @@ ul#menu-items {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* The Close Button */
@@ -600,11 +594,12 @@ ul#menu-items {
 }
 
 a.alink {
-  color: white;
+  color: #ec5242;
+  text-decoration: none;
 }
 
 div#myModal {
-  z-index: 9999;
+  z-index: 11;
   align-items: center;
   background-color: white;
 }
@@ -623,11 +618,6 @@ i#close {
 i#close:hover {
   padding: 15px;
   font-size: larger;
-}
-
-a.alink {
-  color: #ec5242;
-  text-decoration: none;
 }
 
 a.alink:hover {
@@ -692,6 +682,21 @@ p#seeprogram {
   display: none;
 }
 
+.cards {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-direction: column;
+}
+
+.card-container {
+  flex-direction: row;
+}
+
 @media screen and (min-width: 768px) {
   .logo {
     display: none;
@@ -737,13 +742,8 @@ p#seeprogram {
     flex-direction: row;
   }
 
-  .logo {
-    background-color: pink;
-  }
-
   h1 {
     line-height: 7vh;
-
   }
 
   .textbox {
@@ -754,10 +754,6 @@ p#seeprogram {
 
   .container.cont1 {
     height: 115vh;
-  }
-
-  .program {
-    flex-direction: column;
   }
 
   img {
@@ -1018,5 +1014,40 @@ p#seeprogram {
 
   p#japan {
     width: 50vw;
+  }
+
+  .grid-item.grid-content {
+    padding: 0;
+    border: none;
+    width: 30vw;
+  }
+
+  .container.cont3 {
+    height: auto;
+  }
+
+  img.cardimage {
+    width: 10vw;
+  }
+
+  .chess {
+    background-image: url(Assets/Paterns/Chesslggrey.png);
+    height: 17vh;
+  }
+
+  h6#h6subtitle {
+    font-size: 1.5rem;
+  }
+
+  p#cardsubtitle {
+    font-weight: 400;
+    font-style: italic;
+    color: #ec5242;
+    font-size: 0.9rem;
+  }
+
+  p#h6text {
+    font-weight: 400;
+    font-size: 0.7rem;
   }
 }
