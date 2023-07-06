@@ -618,6 +618,34 @@ i#close {
   z-index: 10;
 }
 
+i#close:hover {
+  padding: 15px;
+  font-size: larger;
+}
+
+a.alink {
+  color: #ec5242;
+  text-decoration: none;
+}
+
+a.alink:hover {
+  font-size: larger;
+}
+
+section#home4 {
+  display: none;
+}
+
+section#home5 {
+  display: none;
+}
+
+div#linehome4 {
+  width: 5vw;
+  height: 2px;
+  margin: 2px 40px;
+}
+
 @media screen and (min-width: 768px) {
   .logo {
     display: none;
@@ -732,5 +760,26 @@ i#close {
     font-size: 2rem;
   }
 
+  section#home4 {
+    display: flex !important;
+  }
+
+  img.brandicon {
+    width: 12vw !important;
+  }
+
+  .container.cont7.cont9 {
+    height: 22vh;
+    margin: 5vh 0 0;
+  }
+
+  img#Mozilla {
+    padding-bottom: 3.5vh;
+    width: 22vw;
+  }
+
+  section#home5 {
+    display: flex !important;
+  }
 
 }
