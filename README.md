@@ -67,10 +67,8 @@
 
 > Here is the live demo of this site: 
 
-<img src="./Assets/Readme/Live%20demo.png" alt="Live demo">
-
-[Live Demo] (https://dvcorreia1984.github.io/portfolio/)
-[Presentation] ([https://dvcorreia1984.github.io/portfolio/](https://www.loom.com/share/1b41d93c4b124152be232ac2bc8efaf2?sid=497e4f91-2da6-457c-94d4-5278c283da8b)))
+- Live Demo: [Live Link](https://dvcorreia1984.github.io/Capstone-Project/)
+- Presentation: [Loom Video](https://www.loom.com/share/45e4ad9169544f9a8e3adcf3e0200a15?sid=7df7e2f7-2a23-4838-b9be-384c6127cc47)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
