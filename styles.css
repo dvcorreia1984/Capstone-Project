@@ -713,6 +713,10 @@ p#seeprogram {
   flex-direction: row;
 }
 
+div#pattern1 {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .logo {
     display: none;
@@ -837,17 +841,17 @@ p#seeprogram {
   }
 
   img.brandicon {
-    width: 12vw !important;
+    width: 8vw !important;
   }
 
   .container.cont7.cont9 {
-    height: 22vh;
+    height: auto;
     margin: 5vh 0 0;
   }
 
   img#Mozilla {
-    padding-bottom: 3.5vh;
-    width: 22vw;
+    padding-bottom: 5.5vh;
+    width: 20vw;
   }
 
   section#home5 {

@@ -149,7 +149,7 @@ If you like this project just give me a star ⭐.
 I would like to thank the follolowing: 
 
 - [Microverse](https://www.microverse.org/)
-- [Cindy Chin - as this project is based on her design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- [Cindy Shin - as this project is based on her design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - For my Microverse partner and teammates from other sessions. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
