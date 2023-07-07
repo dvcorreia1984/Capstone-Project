@@ -343,6 +343,19 @@ button.button.more {
   z-index: 1;
 }
 
+#pattern1 {
+  position: absolute;
+  top: 55vh;
+  right: 39vw;
+  width: 70px;
+  height: 70px;
+  background-image: url(./Assets/Paterns/rooi\ swart\ patroon.png);
+  background-size: 18%;
+  background-repeat: repeat;
+  border-radius: 50%;
+  z-index: 1;
+}
+
 h3#h3about {
   align-items: center;
 }
@@ -750,13 +763,17 @@ p#seeprogram {
   }
 
   .textbox {
+    margin: 1vw;
+    font-size: 1rem;
     margin-left: 15vw;
-    width: 61vw;
+    width: 41vw;
     border: 3px solid white;
+    z-index: 2;
   }
 
   .container.cont1 {
-    height: 115vh;
+    margin-top: 12vh;
+    height: 83vh;
     background-image: url(./Assets/Background/ai-conference.png) !important;
   }
 
@@ -867,20 +884,25 @@ p#seeprogram {
   }
 
   h3#spacingtop {
-    padding: 11vh 15vw 2vh;
+    font-size: 3rem;
+    padding: 8vh 15vw 0;
   }
 
   h1#h1desk {
+    font-size: 3.5rem;
     padding-left: 15vw;
-    line-height: 7vw;
+    line-height: 3rem;
   }
 
   h2.contdesk {
+    font-weight: 800;
+    font-size: 2rem;
     padding-left: 15vw;
     width: 83vw;
   }
 
   h5.contdesk {
+    font-size: 1.3rem;
     padding-left: 15vw;
     width: 83vw;
   }
