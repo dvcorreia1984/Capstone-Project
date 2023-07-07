@@ -792,6 +792,10 @@ div#pattern1 {
     flex-direction: column;
   }
 
+  .program:hover {
+    border: 1px solid #ec5242;
+  }
+
   h4 {
     padding: 10px;
     text-align: center;
