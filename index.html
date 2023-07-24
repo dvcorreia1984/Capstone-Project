@@ -6,46 +6,151 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
     <div class="container topbar">
-        <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-        </div>
-        <div class="menu">
-            <i class="fa fa-bars"></i>
-            <ul id="menu-items">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
+        <div class="social">
+            <ul id="desksocial">
+                <li class="socialmenu"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="socialmenu"><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                <li class="socialmenu">English</li>
+                <li class="socialmenu">My Page</li>
+                <li class="socialmenu">Logout</li>
             </ul>
         </div>
+
+    <nav id="navbar">
+        <div class="menu">
+            <i id="openModal" class="fa fa-bars"></i>
+            <div id="myModal" class="modal">
+                <i id="close" class="fa fa-times hidden"></i>
+                <ul id="menu-items" class="hidden">
+                    <li>
+                        <a href="index.html">
+                        <img id="logotobar" src="./Assets/Artificial Inteligence Global Summit 2023.png">
+                        </a>
+                    </li>
+                    <li id="home"><a class="alink" href="index.html">Home</a></li>
+                    <li><a class="alink" href="about.html">About</a></li>
+                    <li>Program</li>
+                    <li>Join</li>
+                    <li>Sponsor</li>
+                    <li>News</li>
+                    <li id="redbox">AI Campaign</li>
+                </ul>
+            </div>
+        </div>
     </div> 
+    </nav>
 </header>
 
 <main>
 
+
 <section id="home1">
  <div class="container cont1">
-    <h3>"Hello! Sharing world"</h3>
-    <h1>CREATIVE COMMONS GLOBAL SUMMIT 2023</h1>
-    <div class="textbox">A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</div>
-    <h2>2015.10.15(THU)~16(FRI)</h2>
-    <p>@ National Museam of Karea, Art Center Nabi and more.." </p>
+    <div id="pattern1"></div>
+    <div id="textcontainerhome1">
+    <h3 id="spacingtop">"AI, friend or foe?"</h3>
+    <h1 id="h1desk">ARTIFICIAL INTELLIGENCE GLOBAL SUMMIT <br> 2023</h1>
+    <div class="textbox">Delegates from over 20 countries will be sharing their expertise with us. We look forward to hosting you in Cape Town, South Africa for this unique event.</div>
+    <h2 class="contdesk">2023.10.15(THU) ~ 16(FRI)</h2>
+    <h5 class="contdesk">@ Cape Town Convension Centre (897 JC Le Roux street)." </h5>
  </div>
-    
+ </div>
 </section>
+
 <section id="home2">
-    <div class="container cont2" ></div>
+    <div class="bg-image"></div>
+    <div class="container cont2" >
+    <h2 id="h2home2">Main Program</h2>
+    <div class="line"></div>
+
+    <div class="program-container">
+
+    <div class="program program1">
+        <img id="programicons" src="./Assets/Icons/1.lecture.svg" alt="lecture">
+        <h4>Lecture</h4>
+        <p id="programtext">Hot topics in Artificial Inteligence from our global and local speakers.</p>
+    </div>
+    <div class="program program2">
+        <img id="programicons" src="./Assets/Icons/2.ccexhibition.svg" alt="exhibition">
+        <h4>Exhibition</h4>
+        <p id="programtext">The best exibits from local schools and universities will be available for viewing. </p>
+    </div>
+    <div class="program program3">
+        <img id="programicons" src="./Assets/Icons/3.forum.svg" alt="exhibition">
+        <h4>Forum</h4>
+        <p id="programtext">Most sessions will be accompanied by an forum where questions can be posed to the speakers. </p>
+    </div>
+    <div class="program program4">
+        <img id="programicons" src="./Assets/Icons/4.workshop.svg" alt=workshop">
+        <h4>Workshop</h4>
+        <p id="programtext">Various workshops will be held, during the plenary sessions.</p>
+    </div>
+    <div class="program program5">
+        <img id="programicons" src="./Assets/Icons/5.CC Ignite.svg" alt=workshop">
+        <h4>Network</h4>
+        <p id="programtext">An opportunity to network with AI leaders accross the globe.</p>
+    </div>
+    </div>
+
+   <button class="button hidden" type="button">Join CC Global Summit 2025</button>
+   <p id="seeprogram">SEE THE WHOLE PROGRAM</p>
+
+    </div>
 </section>
+
 <section id="home3">
-    <div class="container cont3"></div>
+    <div class="container cont3">
+    <h2 id="h2home3">Featured Speakers</h2>
+    <div class="line"></div>
+    <div class="cards"></div>
+
+    <div class="more hidden">
+            <button id="more" class="button more" type="button">MORE<i class="fas fa-chevron-down"></i></button>
+    </div>
+
+    </div>
 </section>
 
+<section id="home4">
+    <div class="container cont7 cont9" >
+    <h2 id="h2about4">Partner</h2>
+    <div id="linehome4" class="line"></div>
+    <div class="partner">
+        <ul class="brands">
+          <li><img class="brandicon" id="Mozilla" src="./Assets/Brands/mozilla.svg" alt="Mozilla"></li>
+          <li><img class="brandicon" id="Google" src="./Assets/Brands/google.svg" alt="Google"></li>
+          <li><img class="brandicon" id="Naver" src="./Assets/Brands/naver.svg" alt="naver"></li>
+          <li><img class="brandicon" id="daumkakao" src="./Assets/Brands/daumkakao.svg" alt="daumkakao"></li>
+          <li><img class="brandicon" id="airbnb" src="./Assets/Brands/airbnb.svg" alt="airbnb"></li>
+        </ul>
+    </div>
+</section>
 
+<section id="home5">
+    <div class="cont10">
+      <div><img id="about5img" src="./Assets/Artificial Inteligence Global Summit 2023.png" alt="logo"></div>
+      <div class="rightsdesktop">
+        <div><p id="rightsdesk">2023 Creative Commons Some Rights Reserved.</p></div>
+        <div><p id="japan">달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+        자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p></div>
+    </div>
+    </div>
+  </section> 
 
 </main>
 
+<script src="./script.js"></script>
+<script src="./cards.js"></script>
 
 </body>
+
 </html>
